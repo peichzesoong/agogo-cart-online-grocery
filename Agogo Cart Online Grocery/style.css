@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@300&family=Quicksand&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+/* Product Info */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+
+.font-logo {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+.font-title {
+    font-family: 'Quicksand', sans-serif;
+}
+.font-name {
+    font-family: 'Roboto Mono';
+    font-weight: bolder;
+    font-size: 16px;
+}
+.font-paragraph {
+    font-family: 'Roboto Mono';
+
+}
+.font-function {
+    font-family: 'Roboto Mono';
+    font-size: 12px;
+}
+.font-size-12 {
+    font-size: 12px;
+}
+.font-size-14 {
+font-size: 14px;
+}
+
+.font-size-16 {
+font-size: 16px;
+}
+
+.font-size-20 {
+font-size: 20px;
+}
+.color-primary {
+    color: #161740;
+}
+.color-primary-bg {
+    background: #161740;;
+  }
+.bg-dark{
+    background: #161740;
+  }
+.color-second {
+    color: #FFE72F;
+}
+.color-second-bg {
+    background: #FFE72F;
+}
+.btn-primary-colour{
+    background-color: #8064A2 !important;
+}
+
+
+
+/* ELEMENTS SETTING */
+a {
+    color: inherit;
+}
+html body{
+    background: #ffffff;
+    font-family: 'Roboto Mono';
+}
+
+/* ===================== 
+    BUTTON
+===================== */
+.btn{
+    font-family: 'Roboto Mono'!important;
+}
+.btn-fill-black{
+    background-color: black!important;
+    color: white!important;
+}
+.btn-fill-black:hover{
+    border: 2px solid #000000 !important; 
+    background-color: white!important;
+    color: black !important;
+}
+.btn-fill-light{
+    background-color: white !important;
+    color: black!important;
+}
+.btn-fill-light:hover{
+    border: 2px solid white !important; 
+    color: white !important;
+    transition: 0.3s;
+}
+
+.btn-line-light{
+    border: 2px solid #000000 !important; 
+    background-color: white !important;
+    color: black!important;
+}
+.btn-line-light:hover{
+    background-color: black!important;
+    color: white!important;
+    transition: 0.3s;
+}
+.btn-line-dark{
+    border: 2px solid white !important; 
+    color: white!important;
+}
+.btn-line-dark:hover{
+    background-color: white!important;
+    color: black!important;
+    transition: 0.3s;
+}
+.fa{
+    color: inherit;
+}
+
+
+/* ===================== */
+/* CARD */
+/* ===================== */
+
+.product-card{
+    border-radius: 20%;
+    border: 3px solid #000000 !important; 
+}
+.card-title:hover{
+    font-weight: bolder;
+    font-size: 130%;
+    transition: 0.5s;
+    text-decoration: none;
+    color: inherit !important;
+
+}
+.card-body{
+    color: #161740;
+}
+.card-img{
+    /* border: 2px solid #C2C3DD; */
+}
+
+/* ===================== */
+/* NAV */
+/* ===================== */
+.bg-dark {   
+    background-color: black !important;
+    /* transition: 0.2s; */
+}
+.navbar .nav-item .nav-link:hover{   
+    background-color: white;
+    color: black !important;
+    transition: 0.2s;
+}
+
+table td{ 
+    font-size: 12px;
+}
+.table-data-div{
+    height: 150px;
+    overflow: auto;
+}
+.test{
+    resize: none;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: auto;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/* MEDIA QUIRIES */
+
+@media (min-width: 576px) {
+    body{
+        margin: 0;
+    }
+ }
+
+@media (min-width: 768px) {
+   body{
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) { 
+    body{
+        width: 85%;
+        margin: auto;
+    }
+ }
+
+@media (min-width: 1200px) {
+    body{
+        width: 75%;
+        margin: auto;
+    }
+}
