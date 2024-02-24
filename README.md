@@ -1,7 +1,7 @@
 # Agogo Cart Online Grocery
 A grocery store catering for e-commerce, accounts and administration management.
 
-- Languages: PHP with HTML, CSS and JavaScript, SQL 
+- Languages: PHP with HTML, CSS, SQL 
 - Method: Group
 - Course: WIE2002 Open Source Programming Applications and Technology
 - Year: 2020/2021
